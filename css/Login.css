@@ -1,0 +1,182 @@
+body {
+    background-color: rgb(10, 10, 10);
+}
+
+.login {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: rgb(0, 0, 0) 5px solid;
+    background-color: rgb(34, 34, 34);
+    width: 445px;
+    height: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Dancing Script';
+    font-size: 60px;
+    color: white;
+}
+
+p {
+    margin-left: 8px;
+}
+
+input {
+    height: 35px;
+}
+
+
+.Nickname [type="text"] {
+    width: 45%;
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 27%;
+    border-radius: 25px;
+    background: none;
+    border-color: royalblue;
+    transition: 0.25s;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 12px 40px;
+}
+
+.Nickname [type="text"]:focus {
+    width: 60%;
+    border-color: greenyellow;
+    margin-left: 20%;
+}
+
+::placeholder {
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.Password [type="password"] {
+    width: 45%;
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 27%;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: none;
+    border-color: royalblue;
+    transition: 0.25s;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 12px 40px;
+}
+
+.Password [type="password"]:focus {
+    width: 60%;
+    border-color: greenyellow;
+    margin-left: 20%;
+}
+
+.box-href {
+    border: 2px solid;
+    width: 0%;
+
+}
+
+#next {
+    width: 150px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: none;
+    border-color: grey;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+
+#next:hover {
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#next:active {
+    cursor: default;
+    background-color: rgb(0, 0, 0);
+}
+
+#submit {
+    width: 150px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: none;
+    border-color: grey;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+
+#submit:hover {
+    border-color: rgb(255, 255, 255);
+}
+
+#submit:active {
+    cursor: default;
+    background-color: rgb(0, 0, 0);
+}
+
+.box-link {
+    width: 150px;
+    margin-left: 33%;
+}
+
+input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 3px solid #555;
+    text-align: center;
+}
+
+.head {
+    background-color: rgb(36, 0, 197);
+    width: 130px;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+.Buttonlogin {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.href {
+    color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
