@@ -6,12 +6,6 @@ function check2() {
     if ( email === "" && pass2 === "" || pass === "") {
         alert("Please type in the Email and password");
     }
-    else if (email === "") {
-        alert("Please type in the Email");
-    }
-    else if ( pass === "" || pass2 === "" && email !== "") {
-        alert("Please type in the password");
-    }
     else {
         window.location.replace("YsammeMages.html");
     }
