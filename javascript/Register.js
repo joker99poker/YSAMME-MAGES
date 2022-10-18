@@ -1,11 +1,15 @@
+let email = document.getElementById("email").value
+let pass = document.getElementById("pass").value
+let pass2 = document.getElementById("pass2").value
+
 function check2() {
-    if (document.getElementById("email").value === "" && document.getElementById("pass2").value === "" || document.getElementById("pass").value === "") {
+    if ( email === "" && pass2 === "" || pass === "") {
         alert("Please type in the Email and password");
     }
-    else if (document.getElementById("email").value === "") {
+    else if (email === "") {
         alert("Please type in the Email");
     }
-    else if ( document.getElementById("pass").value === "" || document.getElementById("pass2").value === "" && document.getElementById("email").value !== "") {
+    else if ( pass === "" || pass2 === "" && email !== "") {
         alert("Please type in the password");
     }
     else {
