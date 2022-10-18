@@ -3,8 +3,11 @@ let pass = document.getElementById("pass").value
 let pass2 = document.getElementById("pass2").value
 
 function check2() {
-    if ( email === "" && pass2 === "" || pass === "") {
-        alert("Please type in the Email and password");
+    if ( email === "" && pass2 === "" && pass === "") {
+        alert("Please type in the Email and password.");
+    }
+    else if (pass !== pass2) {
+        alert("The two passwords are not equal. ");
     }
     else {
         window.location.replace("YsammeMages.html");
