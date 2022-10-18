@@ -1,12 +1,12 @@
 function check2() {
-    if (document.getElementById("pass").value === "" || document.getElementById("pass2").value === "" && document.getElementById("email").value !== "") {
-        alert("Please type in the password");
+    if (document.getElementById("email").value === "" && document.getElementById("pass2").value === "" || document.getElementById("pass").value === "") {
+        alert("Please type in the Email and password");
     }
     else if (document.getElementById("email").value === "") {
         alert("Please type in the Email");
     }
-    else if (document.getElementById("email").value === "" && document.getElementById("pass2").value === "" || document.getElementById("pass").value === "" ) {
-        alert("Please type in the Email and password");
+    else if ( document.getElementById("pass").value === "" || document.getElementById("pass2").value === "" && document.getElementById("email").value !== "") {
+        alert("Please type in the password");
     }
     else {
         window.location.replace("YsammeMages.html");
