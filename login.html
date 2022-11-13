@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/Login.css">
+    <link rel="shortcut icon" href="pics/icon.png">
+    <title>YSAMME MAGES-login</title>
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <div class="login">
+            <h1 id="h1-login">Login</h1>
+            <div class="Nickname">
+                <input id="email" type="text" onkeyup=check() name="fname" placeholder="Email">
+            </div>
+            <div class="Password">
+                <input id="pass" type="password" onkeyup=check() name="pass" placeholder="Password">
+            </div>
+            <div class="box-link">
+                <button id="submit" type="button" onclick=check2()>Submit</button>
+            </div>
+            <div class="Buttonlogin">
+                <p>Don't have an account. <a class="href" href="Register.html">Press me</a></p>
+            </div>
+        </div>
+    </form>
+    <script src="javascript/login.js"></script>
+</body>
+
+</html>
